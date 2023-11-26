@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+@font-face {
+    font-family: 'Medieval Decorated';
+    src: url('/resources/fonts/KingsCross.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.big-letter::first-letter {
+    
+    font-family:"Medieval Decorated";
+    float: left;
+  
+
+  
+    font-size: 80px;
+  
+  
+    color: #bbb lack;;
+
+    margin-bottom: 10px;
+  
+    padding-bottom: 10px;
+
+    padding-right: 10px;
+    margin-right: 10px;
+    
+    margin-top: -2px;
+
+}
+button {
+    text-align:center;
+}
+h1{
+    font-family: 'MedievalSharp', sans-serif;
+    font-weight:bolder;
+
+}
+h2{
+    font-family:"Medieval Decorated";
+    font-weight:normal;
+}
+h3{
+    font-family:"Medieval Decorated";
+    font-weight:normal;
+}
+h4{
+    font-family: 'MedievalSharp', sans-serif;
+    font-weight:normal;
+}
+h5{
+    font-family: 'MedievalSharp', sans-serif;
+    font-weight:normal;
+}
+body {
+    font-family: 'MedievalSharp', sans-serif;
+    font-weight:normal;
+    background-image: url("https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-434.jpg?w=2000");
+    margin-left: 3em ;
+    margin-right: 15em ;
+    margin-top: 5em ;
+    padding:0px;
+    line-height:1;
+    margin-bottom: 8em !important;
+    text-align: justify;
+
+
+}
+
+p {
+    font-family: 'MedievalSharp', sans-serif;
+    font-weight:normal;
+    line-height:1;
+    text-align: justify;
+    margin-left: 3em ;
+    margin-right: 5em ;
+    margin-top: 5em ;
+}
+
+.columns{
+    text-align : center;
+}
+
+
+img{
+    filter: sepia(100%) blur(0.8px) contrast(2.5) brightness(50%);
+    border-radius:80px;
+    -webkit-border-radius:5%;
+    width:100%;
+    max-width:100%;
+    image-rendering: crisp-edges;
+    opacity: 50%;
+}
+iframe{
+    filter: sepia(100%) blur(0.8px) contrast(2.5) brightness(50%);
+    opacity: 50%;
+    max-width:100%;
+    border-radius:80px;
+}
+
+small{
+    font-family:"Medieval Sharp";
+    font-weight:normal
+}
+
+button{
+    background-image: url("https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-434.jpg?w=2000");
+    text-align: center;
+}

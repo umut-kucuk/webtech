@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/73b2205b7e71a51b4df11d2837ad8185?family=Ailerons);
+
+body {
+    background-image: url("/resources/images/background.avif");
+    background-attachment: fixed;
+}
+
+body * {
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-shadow:
+        0 0 3px #fff,
+        0 0 7px #fff,
+        0 0 15px #fff,
+        0 0 30px rgb(118, 115, 255),
+        0 0 40px rgb(158, 173, 255)
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    line-height: 2em;
+    padding-top: 5em;
+}
+
+q {
+    text-shadow: inherit;
+}
+
+
+h1 {
+    font-family: 'Ailerons', sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h1 q {
+    font-size: inherit;
+}
+
+h3 * {
+    font-family: 'Ailerons', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-shadow: none;
+}
+
+
+
+
+.article-title {
+    text-align: center;
+}
+
+iframe {
+    display: inline-block;
+    /* other designs you want*/
+}
+
+
+
+.question {
+    padding-top: 2rem;
+    text-shadow:
+        0 0 3px #fff,
+        0 0 7px #fff,
+        0 0 15px #fff,
+        0 0 30px rgb(255, 115, 115),
+        0 0 40px rgb(255, 158, 158)
+}
+
+.answer {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.italic {
+    font-style: italic;
+    text-shadow: none;
+}
+
+.figure-caption * {
+    text-shadow: none;
+}
+
+.figure-caption {
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: none;
+    font-size: 10px;
+}
+
+.figure-caption q {
+    text-shadow: none;
+}

@@ -1,0 +1,237 @@
+img {
+    width: 100% !important;
+}
+
+.style-selector {
+    position: fixed;
+    display: grid;
+    right: 0%;
+    bottom: 30%;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.style-selector button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 7.4rem;
+}
+
+.style-selector button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+@media (min-width: 768px) {
+    .button-54 {
+        padding: 0.25em 0.75em;
+    }
+}
+
+.article {
+    margin: 1%;
+    overflow: scroll;
+    height: 80vh;
+    max-width: 60vh;
+}
+
+.full-width-image {
+    width: 100%;
+}
+
+.full-width-image img {
+    width: 100%;
+}
+
+.articles {
+    display: flex;
+    margin: 5%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Footer */
+
+
+/** Footer **/
+.footer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: static;
+    text-align: center !important;
+    padding: 0 20px 0 20px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .item {
+    list-style-type: none !important;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+/* METADATA VIEWER */
+.metadata-sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #444444;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.metadata-sidebar li input {
+    margin-top: 8px;
+    position: absolute;
+    left: 5px;
+    font: inherit;
+    color: currentColor;
+    width: 0.8em;
+    height: 0.8em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+}
+
+.metadata-sidebar .metadata-closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.metadata-openbtn {
+    position: fixed;
+    left: 0%;
+    top: 20%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.metadata-openbtn:hover {
+    background-color: #444;
+}
+
+@media screen and (max-height: 450px) {
+    .metadata-sidebar {
+        padding-top: 15px;
+    }
+
+    .metadata-sidebar a {
+        font-size: 18px;
+    }
+}
+
+.keywords {
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.keyword-list-block {
+    margin-top: 20%;
+    margin-left: 5%;
+    height: 60vh;
+    width: 300px;
+    overflow: scroll;
+    float: left;
+}
+
+.keyword-list-block li a {
+    color: white;
+    text-decoration: none;
+}
+
+.keyword-list-block li a:hover {
+    color: #AAAAAA;
+}
+
+.keyword-list-block li {
+    color: white;
+    text-transform: capitalize;
+    list-style-type: square;
+}
+
+.keyword-info {
+    float: right;
+    margin-top: 20%;
+    margin-left: 5%;
+    height: 60vh;
+    width: 300px;
+    overflow: scroll;
+    float: left;
+}
+
+.keyword-info li a {
+    color: #BBBBBB;
+    text-decoration: none;
+}
+
+.keyword-info li a:hover {
+    color: #999999;
+}
+
+.num-occurences {
+    color: white;
+}
+
+.add-keyword {
+    margin-left: 5%;
+}

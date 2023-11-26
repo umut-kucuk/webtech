@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: Mooka;
+    src: url('/resources/fonts/mooka.mooka.otf');
+}
+
+body {
+    background-image: url("/resources/images/newspaper.jpg");
+    background-attachment: fixed;
+}
+
+body * {
+    font-family: 'Playfair Display' sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: black;
+}
+
+p {
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-bottom: 0px !important;
+    padding: 0px;
+}
+
+p:not(.big-letter) {
+    text-indent: 2rem;
+}
+
+h1 {
+    font-family: Mooka;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+q {
+    font-size: inherit;
+    color: inherit;
+}
+
+h1 q {
+    font-size: inherit;
+    color: inherit;
+}
+
+h3 * {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-shadow: none;
+}
+
+img {
+    width: 100% !important;
+}
+
+iframe {
+    display: inline-block;
+}
+
+a:link {
+    color: #aa2727;
+}
+
+a:visited {
+    color: #aa2727;
+}
+
+a:hover {
+    color: #d58585;
+}
+
+a:active {
+    color: #d58585;
+}
+
+[type="radio"] {
+    background: #aa2727;
+
+
+}
+
+.vl {
+    border-left: 6px solid #DB3334;
+    border-radius: 6px;
+    height: 84vh;
+}
+
+.big-letter::first-letter {
+    float: left;
+    line-height: 50px;
+    font-size: 10rem;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    color: #DB3334;
+}
+
+.article-title {
+    text-align: left;
+}
+
+
+.question {
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+
+.answer {
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+
+.italic {
+    font-style: italic;
+    text-shadow: none;
+}
+
+.figure-caption * {
+    text-shadow: none;
+}
+
+.figure-caption {
+    text-shadow: none;
+    font-size: 10px;
+}
+
+.figure-caption q {
+    text-shadow: none;
+}
