@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Space+Grotesk:wght@300&display=swap');
+
+body {
+  margin: 0;
+  background-color: lightsalmon !important;
+  font-family: 'Space Grotesk', sans-serif !important;
+  background-image: url("/resources/images/backgr.jpg");
+  letter-spacing: -0.7px;
+  background-attachment: fixed !important;
+  word-spacing: -0.3px;
+  font-size: 19px !important;
+  color: black !important;
+}
+
+img {
+  /** max-width:100%; height:auto; **/
+  max-width: 400px;
+  margin: 0 10px;
+  border: dashed goldenrod 5px;
+}
+
+h1 {
+  color: darkblue;
+  position: relative;
+  /** text-shadow: 0px 3px 18px #CE5937;  Looks bad **/
+}
+
+
+/** Hover h1 **/
+
+h1::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: rgb(255, 0, 0);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+/** Hoover h1 end **/
+
+h2 {
+  color: darkred;
+  position: relative;
+  /**  text-shadow: 0px 3px 18px #5649ab; **/
+}
+
+/** h2 hover **/
+
+h2::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+h2:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h2::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: rgb(0, 0, 255);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+/** h2 hover ends **/
+
+
+p:nth-child(odd) {
+  border: 3px solid black;
+  border-left: 0;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+p:nth-child(even) {
+  border: 3px solid red;
+  border-right: 0;
+  padding: 5px;
+}
+
+
+.image-type-1 {
+  transform: rotate(5deg);
+}
+
+.image-type-2 {
+  transform: rotate(-5deg);
+}
+
+/** image hover **/
+
+.zoom:hover {
+  transform: scale(1.5);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/** image hover ends **/
+
+#furry {
+  border: dashed brown 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000 !important;
+}
+
+.shapes {
+  display: flex;
+}
+
+.triangle-1 {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-right: 80px solid darkred;
+  border-bottom: 40px solid transparent;
+}
+
+.rectangle-1 {
+  height: 50px;
+  width: 100px;
+  background-color: darkblue;
+  transform: rotate(-60deg);
+  margin: 10px 0 0 0;
+}
+
+.circle-1 {
+  background: darkblue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.triangle-2 {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-right: 80px solid darkred;
+  border-bottom: 40px solid transparent;
+  transform: rotate(45deg);
+}
+
+/**
+.container {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    height: 100%;
+}
+
+trying bootstrap classes
+**/
+
+.image-desc {
+  border: dashed darkgoldenrod 2px;
+  border-radius: 5%;
+  font-size: 16px;
+  font-style: italic;
+  margin: 5px;
+  transition: all .2s ease-in-out;
+
+}
+
+.image-desc:hover {
+  transform: scale(1.5);
+  color: rgb(205, 0, 0);
+}
+
+.article1 {
+  text-align: center;
+  margin: 0 10px;
+
+}
+
+.article2 {
+  border: dashed darkred 5px;
+  text-align: center;
+  margin: 0 10px;
+  background-color: rgba(255, 160, 122, .3);
+}
+
+.article3 {
+  text-align: center;
+  margin: 0 10px;
+}
+
+
+.verticalRight {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+
+/** border animation try 
+
+#furry {
+    height: 100px;
+    width: 200px;
+    background: linear-gradient(90deg, blue 50%, transparent 50%), linear-gradient(90deg, blue 50%, transparent 50%), linear-gradient(0deg, blue 50%, transparent 50%), linear-gradient(0deg, blue 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+    background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+    padding: 10px;
+    animation: border-dance 4s infinite linear;
+  }
+  @keyframes border-dance {
+    0% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+    }
+    100% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+    }
+  }
+
+ border animation ends **/
+
+
+.vl {
+  border-left: 1px solid black;
+  border-radius: 6px;
+  height: 84vh;
+}
+
+/* scrollbar */
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 238, 0) rgb(17, 16, 13);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(17, 16, 13);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 238, 0);
+  border-radius: 20px;
+  border: 3px solid rgb(17, 16, 13);
+}
