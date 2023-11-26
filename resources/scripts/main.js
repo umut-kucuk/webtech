@@ -1,9 +1,9 @@
 $(function(){
-  $("#custom-navbar").load("../resources/html/navbar.html");
+  $("#custom-navbar").load("webtech/resources/html/navbar.html");
 });
 
 $(function(){
-  $("#custom-foot").load("../resources/html/footer.html");
+  $("#custom-foot").load("webtech/resources/html/footer.html");
 });
 
 function selectStyle(style) {
