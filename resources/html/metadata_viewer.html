@@ -1,0 +1,31 @@
+<div class="metadata-sidebar" id="metadata-sidebar">
+    <a href="javascript:void(0)" class="metadata-closebtn" onclick="closeMetadata()">&times;</a>
+    <div class="search-bar">
+        <button id="list-button" type="submit">List Keywords</button>
+        <button id="order-button" type="submit">Order Keywords</button>
+        <input id="search-text" type="text" placeholder="Search..." name="search">
+    </div>
+    <div class="keywords">
+        <div class="keyword-list-block">
+            <ul id="keyword-list">
+
+            </ul>
+        </div>
+        <div class="keyword-info" id="keyword-info">
+            <div id="num-occurences">
+
+            </div>
+            <ul id="occurence-list"></ul>
+        </div>
+    </div>
+
+    <div class="add-keyword">
+        <input id="new-keyword-text" type="text" placeholder="">
+        <button id="new-keyword-button" type="submit">Add keyword</button>
+    </div>
+</div>
+
+
+<div id="metadata-open">
+    <button class="metadata-openbtn" onclick="openMetadata()">&#9776; Metadata</button>
+</div>
